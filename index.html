@@ -95,11 +95,8 @@
 
             current_date.innerHTML = "Today's date is " + month + '/' + day + '/' + year + "! <br><span> Here's the time:</span> ";
 
-            if (h < 11) {
+            if (h > 4 && h < 11) {
                 ampm_message.innerHTML = "Good morning!";
-            }
-            else if (h > 11 && h < 16) {
-                ampm_message.innerHTML = "Good afternoon";
             }
             else {
                 ampm_message.innerHTML = "Good evening!";
