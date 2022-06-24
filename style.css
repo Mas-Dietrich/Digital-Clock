@@ -105,8 +105,20 @@ body {
     height: 400px;
     font-weight: 600;
     letter-spacing: 0.1em;
+    padding: 10px;
 }
 
 #current_date span {
     font-weight: 300;
+}
+
+#ampm_message {
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    height: 475px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.25em;
+    font-size: 1.75em;
 }
